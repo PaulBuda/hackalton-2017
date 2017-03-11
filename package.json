@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "selenium": "node selenium-installer.js",
-    "start": "node app.js"
+    "start": "node --harmony app.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,10 @@
   "homepage": "https://github.com/PaulBuda/wolfram-scraper#readme",
   "dependencies": {
     "async": "^2.1.5",
+    "nightwatch": "^0.9.12",
     "selenium-standalone": "^6.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0"
   }
 }

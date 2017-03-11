@@ -1,5 +1,12 @@
+import commandGenerator from './services/command-generator-service';
+
 function Start() {
-  console.log('Scraper was started!');
+  let a = 123;
+
+  commandGenerator.generateCommand('test')
+  .then((value) => {
+    console.log(value);
+  });
 }
 
 Start();
