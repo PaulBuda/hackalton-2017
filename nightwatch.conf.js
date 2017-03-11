@@ -12,9 +12,16 @@ var SELENIUM_CONFIGURATION = {
 
 var CHROME_CONFIGURATION = {
   browserName: 'chrome',
+<<<<<<< HEAD
   javascriptEnabled: false,
   acceptSslCerts: true,
   chromeOptions: {
+=======
+  javascriptEnabled: true,
+  acceptSslCerts: true,
+  chromeOptions: {
+    "args" : ["window-position=0,0", "window-size=1366,768"],
+>>>>>>> create and execut bash command for scraping.
     prefs: {
       download: {
         prompt_for_download: false,
