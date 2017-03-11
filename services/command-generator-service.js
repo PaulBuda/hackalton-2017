@@ -5,8 +5,10 @@ class CommandGenerator {
 
   }
 
-  generateCommand(scraperName) {
-    return util.format('node_modules/nightwatch/bin/nightwatch --group %s', scraperName);
+  generateCommand(scraperName, county) {
+    return util.format('NODE_URL="%s" node_modules/nightwatch/bin/nightwatch --group %s',
+      county.split(' ').join('_'),
+      scraperName);
   }
 }
 
