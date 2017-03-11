@@ -1,0 +1,19 @@
+{
+  "name": "wolfram-scraper",
+  "version": "1.0.0",
+  "description": "Scraper for database population",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulBuda/wolfram-scraper.git"
+  },
+  "author": "Paul - Gabriel Buda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaulBuda/wolfram-scraper/issues"
+  },
+  "homepage": "https://github.com/PaulBuda/wolfram-scraper#readme"
+}
