@@ -1,10 +1,7 @@
-import commandGenerator from './services/command-generator-service';
+import scraperService from './services/scraper-service';
 
 function Start() {
-  let a = 123;
-
-  commandGenerator.generateCommand('test')
-  .then((value) => {
+  scraperService.scrape().then((value) => {
     console.log(value);
   });
 }
