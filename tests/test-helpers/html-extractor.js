@@ -1,4 +1,5 @@
 import commandGenerator from '../../services/command-generator-service';
+const exec = require('child-process-promise').exec;
 
 class HtmlExtractor {
   constructor() {
@@ -6,11 +7,9 @@ class HtmlExtractor {
   }
 
   extract() {
-    let bashCommand = commandGenerator.generateCommand();
+    let bashCommand = commandGenerator.generateCommand('wolfram');
 
-    console.log(bashCommand);
-
-    return Promise.resolve('done');
+    return exec(bashCommand);
   }
 }
 
