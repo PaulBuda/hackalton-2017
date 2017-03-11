@@ -4,7 +4,6 @@
   "description": "Scraper for database population",
   "main": "app.js",
   "scripts": {
-    "sele-inst": "node selenium-installer.js",
     "start": "babel-node app.js"
   },
   "repository": {
