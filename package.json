@@ -1,5 +1,5 @@
 {
-  "name": "wolfram-scraper",
+  "name": "wikipedia-scraper",
   "version": "1.0.0",
   "description": "Scraper for database population",
   "main": "app.js",
