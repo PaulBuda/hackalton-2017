@@ -6,9 +6,7 @@ class CommandGenerator {
   }
 
   generateCommand(scraperName) {
-    return Promise.resolve(
-      util.format('node_modules/nightwatch/bin/nightwatch --group %s', scraperName)
-    );
+    return util.format('node_modules/nightwatch/bin/nightwatch --group %s', scraperName);
   }
 }
 

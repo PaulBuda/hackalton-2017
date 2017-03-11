@@ -4,8 +4,8 @@
   "description": "Scraper for database population",
   "main": "app.js",
   "scripts": {
-    "selenium": "node selenium-installer.js",
-    "start": "node --harmony app.js"
+    "sele-inst": "node selenium-installer.js",
+    "start": "babel-node app.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/PaulBuda/wolfram-scraper#readme",
   "dependencies": {
+    "app-root-path": "^2.0.1",
     "async": "^2.1.5",
+    "child-process-promise": "^2.2.0",
     "nightwatch": "^0.9.12",
     "selenium-standalone": "^6.0.1"
   },
