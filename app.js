@@ -1,9 +1,11 @@
 import scraperService from './services/scraper-service';
 
 function Start() {
-  scraperService.scrape().then((value) => {
-    console.log(value);
-  });
+  scraperService.scrape();
 }
 
 Start();
+//
+// var obj = require('./db/Afghanistan.json');
+//
+// console.log(obj);
