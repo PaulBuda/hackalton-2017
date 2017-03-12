@@ -13,9 +13,9 @@ var loadCounty = function(county) {
   return function(callback){
       try {
         var countyName = county.split(' ').join('-');
-        var countyData = require(path.join(appRoot, 'db', countyName));
+        var countyData = require(path.join(appRoot, 'db', 'countries', countyName));
         countyData['Language'] = countyData['Official languages'];
-        countyData['Name'] = countyName;
+        countyData['Name'] = countyName.split('-').join(' ');
         countyData['InternetTLD'] = countyData['Internet TLD']
         countriesData.push(countyData);
       } catch (e) {
@@ -51,7 +51,16 @@ function loadData() {
       },
       function(callback){
         questionsWritter.processQuestions(countriesData, 'InternetTLD-Multiple', callback);
-      }
+      },
+      // function(callback){
+      //   questionsWritter.processQuestions(countriesData, 'Born', callback);
+      // },
+      // function(callback){
+      //   questionsWritter.processQuestions(countriesData, 'Born-Multiple', callback);
+      // },
+      // function(callback){
+      //   questionsWritter.processQuestions(countriesData, 'Died', callback);
+      // }
     ], function(){
       console.log('done');
     })

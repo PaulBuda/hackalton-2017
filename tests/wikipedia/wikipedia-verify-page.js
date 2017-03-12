@@ -16,7 +16,7 @@ module.exports = {
       .windowMaximize()
       .url(url)
       .pause(oneSecond)
-      .waitForElementVisible('table.infobox.geography.vcard', oneMinute)
+      .waitForElementVisible('table.infobox', oneMinute)
       .source(function(res){
         var htmls = [];
         htmls.push(res.value)

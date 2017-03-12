@@ -1,14 +1,14 @@
 import htmlExtractor from '../tests/test-helpers/html-extractor';
 import dataExtractor from './data-extractor';
-var countries = require('../countries.json').countries.split(' | ');
+var figures = require('../figures.json').figures.split(' | ');
 var async = require('async');
 
-var getHtml = function(county)
+var getHtml = function(figure)
 {
   return function(callback){
-    console.log(county);
-    return htmlExtractor.extract(county).then((value) => {
-      return dataExtractor.extract(value, county).then((value) => {
+    console.log(figure);
+    return htmlExtractor.extract(figure).then((value) => {
+      return dataExtractor.extract(value, figure).then((value) => {
         callback();
       })
     })
@@ -27,8 +27,11 @@ class ScraperService {
 
   scrape() {
     var tasks = [];
-    countries.forEach(function(county){
-      tasks.push(getHtml(county));
+
+    console.log(figures.length);
+
+    figures.forEach(function(figure){
+      tasks.push(getHtml(figure));
     });
 
     async.series(tasks, function(){
