@@ -58,6 +58,7 @@ def makeQuestion():
 				break
 		dem_keyz = capitalQuestions.keys()
 		mSelectQuestions = [capitalQuestions[dem_keyz[alt1]], capitalQuestions[dem_keyz[alt2]], capitalQuestions[dem_keyz[alt3]], capitalQuestions[currentQuestion]]
+		print mSelectQuestions
 		shuffle(mSelectQuestions)
 
 
@@ -65,6 +66,7 @@ def makeQuestion():
 
 def signal_handler(signal, frame):
 	if token:
+		# room.send_text("Adios")
 		client.logout()
 		print "Bot's out"
 	sys.exit(0)
@@ -94,10 +96,10 @@ def on_message(room, event):
 						global score
 						score = {}
 						activeUsers = room.get_joined_members()
-						# print activeUsers
+						print activeUsers
 						del activeUsers["@triviabot:matrix.org"]
 						for k,v in activeUsers.iteritems():
-							score[v["displayname"]] = 0
+							score[k] = 0
 						thread.start_new_thread(contest, (int(command[1]), room, ))
 
 
@@ -109,11 +111,13 @@ def on_message(room, event):
 					# print options
 					# print options[mSelectQuestions.index(capitalQuestions[currentQuestion])]
 					# print capitalQuestions[currentQuestion]
-					if (msg.lower() == capitalQuestions[currentQuestion].encode("utf-8").lower() or (multipleSelectQuestion == True and msg.lower() == options[mSelectQuestions.index(capitalQuestions[currentQuestion].decode('utf-8'))])) and active == True and answered == False:
+					if (msg.lower() == capitalQuestions[currentQuestion].encode("utf-8").lower() or (multipleSelectQuestion == True and msg.lower() == options[mSelectQuestions.index(capitalQuestions[currentQuestion].encode('utf-8'))])) and active == True and answered == False:
 						global hasWon
 						hasWon = True
 						answered = True
-						winner = event["sender_display_name"]
+						print "I AM HEREEERE"
+						winner = event["sender"]
+						# print winner
 						room.send_text("The winner is " + winner)
 						score[winner] += 5
 						hasWon = False
@@ -136,10 +140,10 @@ def contest(nrQuestions, room):
 		while(hasWon == True): pass
 		
 		if multipleSelectQuestion == True:
-			altAnswers = ""
+			altAnswers = unicode("")
 			altAnswers += "Q" + str(x+1) + ": " + currentQuestion + "\n"
 			for i in xrange(0, 4):
-				altAnswers += str(options[i]) + ". " + mSelectQuestions[i].encode("utf-8") + "\n"
+				altAnswers += options[i].encode("utf-8") + ". " + mSelectQuestions[i].encode("utf-8") + "\n"
 			room.send_text(altAnswers)
 		else:
 			response = room.send_text("Q" + str(x+1) + ": " + currentQuestion)
@@ -190,9 +194,10 @@ rooms = client.get_rooms()
 # print rooms
 for room_id in rooms.keys():
 	parse_room(room_id, None)
-# print "I am here"
 client.add_invite_listener(parse_room)
-# client.start_listener_thread()
+# print "I am here"
+# client.add_invite_listener(parse_room)
+client.start_listener_thread()
 # time.sleep(5)
 # client.stop_listener_thread()
 # room = client.join_room("#trivia_contest:matrix.org");
