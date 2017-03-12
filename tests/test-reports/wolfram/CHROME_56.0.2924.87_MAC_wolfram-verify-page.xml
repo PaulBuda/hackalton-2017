@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="wolfram-verify-page"
+    errors="0" failures="0" hostname="" id="" package="wolfram" skipped="0"
+    tests="1" time="4.707" timestamp="Sat, 11 Mar 2017 07:15:12 GMT">
+  
+    <testcase name="Get Html After Ajax Call" time="4.707" assertions="1">
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
