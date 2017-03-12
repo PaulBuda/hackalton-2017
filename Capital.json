@@ -1,0 +1,942 @@
+[  
+   {  
+      "q":"Which is the capital of Afghanistan?",
+      "a":"Kabul"
+   },
+   {  
+      "q":"Which is the capital of Albania?",
+      "a":"Tirana"
+   },
+   {  
+      "q":"Which is the capital of Algeria?",
+      "a":"Algiers"
+   },
+   {  
+      "q":"Which is the capital of American-Samoa?",
+      "a":"Pago Pago"
+   },
+   {  
+      "q":"Which is the capital of Andorra?",
+      "a":"Andorra la Vella"
+   },
+   {  
+      "q":"Which is the capital of Angola?",
+      "a":"Luanda"
+   },
+   {  
+      "q":"Which is the capital of Anguilla?",
+      "a":"The Valley"
+   },
+   {  
+      "q":"Which is the capital of Antigua-and-Barbuda?",
+      "a":"St. John's"
+   },
+   {  
+      "q":"Which is the capital of Argentina?",
+      "a":"Buenos Aires"
+   },
+   {  
+      "q":"Which is the capital of Armenia?",
+      "a":"Yerevan"
+   },
+   {  
+      "q":"Which is the capital of Aruba?",
+      "a":"Oranjestad"
+   },
+   {  
+      "q":"Which is the capital of Australia?",
+      "a":"Canberra"
+   },
+   {  
+      "q":"Which is the capital of Austria?",
+      "a":"Vienna"
+   },
+   {  
+      "q":"Which is the capital of Azerbaijan?",
+      "a":"Baku"
+   },
+   {  
+      "q":"Which is the capital of Bahamas?",
+      "a":"Nassau"
+   },
+   {  
+      "q":"Which is the capital of Bahrain?",
+      "a":"Manama"
+   },
+   {  
+      "q":"Which is the capital of Bangladesh?",
+      "a":"Dhaka"
+   },
+   {  
+      "q":"Which is the capital of Barbados?",
+      "a":"Bridgetown"
+   },
+   {  
+      "q":"Which is the capital of Belarus?",
+      "a":"Minsk"
+   },
+   {  
+      "q":"Which is the capital of Belgium?",
+      "a":"Brussels"
+   },
+   {  
+      "q":"Which is the capital of Belize?",
+      "a":"Belmopan"
+   },
+   {  
+      "q":"Which is the capital of Benin?",
+      "a":"Porto-Novoa"
+   },
+   {  
+      "q":"Which is the capital of Bermuda?",
+      "a":"Hamilton"
+   },
+   {  
+      "q":"Which is the capital of Bhutan?",
+      "a":"Thimphu"
+   },
+   {  
+      "q":"Which is the capital of Bolivia?",
+      "a":"Sucre"
+   },
+   {  
+      "q":"Which is the capital of Bosnia-and-Herzegovina?",
+      "a":"Sarajevo"
+   },
+   {  
+      "q":"Which is the capital of Botswana?",
+      "a":"Gaborone"
+   },
+   {  
+      "q":"Which is the capital of Brazil?",
+      "a":"Brasília"
+   },
+   {  
+      "q":"Which is the capital of British-Virgin-Islands?",
+      "a":"Road Town"
+   },
+   {  
+      "q":"Which is the capital of Brunei?",
+      "a":"Bandar Seri Begawan"
+   },
+   {  
+      "q":"Which is the capital of Bulgaria?",
+      "a":"Sofia"
+   },
+   {  
+      "q":"Which is the capital of Burkina-Faso?",
+      "a":"Ouagadougou"
+   },
+   {  
+      "q":"Which is the capital of Burundi?",
+      "a":"Bujumbura"
+   },
+   {  
+      "q":"Which is the capital of Cambodia?",
+      "a":"Phnom Penh"
+   },
+   {  
+      "q":"Which is the capital of Cameroon?",
+      "a":"Yaoundé"
+   },
+   {  
+      "q":"Which is the capital of Canada?",
+      "a":"Ottawa"
+   },
+   {  
+      "q":"Which is the capital of Cape-Verde?",
+      "a":"Praia"
+   },
+   {  
+      "q":"Which is the capital of Cayman-Islands?",
+      "a":"George Town"
+   },
+   {  
+      "q":"Which is the capital of Central-African-Republic?",
+      "a":"Bangui"
+   },
+   {  
+      "q":"Which is the capital of Chad?",
+      "a":"N'Djamena"
+   },
+   {  
+      "q":"Which is the capital of Chile?",
+      "a":"Santiagoa"
+   },
+   {  
+      "q":"Which is the capital of China?",
+      "a":"Beijing"
+   },
+   {  
+      "q":"Which is the capital of Christmas-Island?",
+      "a":"Flying Fish Cove"
+   },
+   {  
+      "q":"Which is the capital of Cocos-Keeling-Islands?",
+      "a":"West Island"
+   },
+   {  
+      "q":"Which is the capital of Colombia?",
+      "a":"Bogotá"
+   },
+   {  
+      "q":"Which is the capital of Comoros?",
+      "a":"Moroni"
+   },
+   {  
+      "q":"Which is the capital of Cook-Islands?",
+      "a":"Avarua"
+   },
+   {  
+      "q":"Which is the capital of Costa-Rica?",
+      "a":"San José"
+   },
+   {  
+      "q":"Which is the capital of Croatia?",
+      "a":"Zagreb"
+   },
+   {  
+      "q":"Which is the capital of Cuba?",
+      "a":"Havana"
+   },
+   {  
+      "q":"Which is the capital of Curacao?",
+      "a":"Willemstad"
+   },
+   {  
+      "q":"Which is the capital of Cyprus?",
+      "a":"Nicosia  "
+   },
+   {  
+      "q":"Which is the capital of Czech-Republic?",
+      "a":"Prague"
+   },
+   {  
+      "q":"Which is the capital of Democratic-Republic-of-the-Congo?",
+      "a":"Kinshasa"
+   },
+   {  
+      "q":"Which is the capital of Denmark?",
+      "a":"Copenhagen"
+   },
+   {  
+      "q":"Which is the capital of Djibouti?",
+      "a":"Djibouti City"
+   },
+   {  
+      "q":"Which is the capital of Dominica?",
+      "a":"Roseau"
+   },
+   {  
+      "q":"Which is the capital of Dominican-Republic?",
+      "a":"Santo Domingo"
+   },
+   {  
+      "q":"Which is the capital of East-Timor?",
+      "a":"Dili"
+   },
+   {  
+      "q":"Which is the capital of Ecuador?",
+      "a":"Quito"
+   },
+   {  
+      "q":"Which is the capital of Egypt?",
+      "a":"Cairo"
+   },
+   {  
+      "q":"Which is the capital of El-Salvador?",
+      "a":"San Salvador"
+   },
+   {  
+      "q":"Which is the capital of Equatorial-Guinea?",
+      "a":"Malabo (de jure)"
+   },
+   {  
+      "q":"Which is the capital of Eritrea?",
+      "a":"Asmara"
+   },
+   {  
+      "q":"Which is the capital of Estonia?",
+      "a":"Tallinna"
+   },
+   {  
+      "q":"Which is the capital of Ethiopia?",
+      "a":"Addis Ababa"
+   },
+   {  
+      "q":"Which is the capital of Falkland-Islands?",
+      "a":"Stanley"
+   },
+   {  
+      "q":"Which is the capital of Faroe-Islands?",
+      "a":"Tórshavn"
+   },
+   {  
+      "q":"Which is the capital of Fiji?",
+      "a":"Suva"
+   },
+   {  
+      "q":"Which is the capital of Finland?",
+      "a":"Helsinki"
+   },
+   {  
+      "q":"Which is the capital of France?",
+      "a":"Paris"
+   },
+   {  
+      "q":"Which is the capital of French-Guiana?",
+      "a":"Cayenne"
+   },
+   {  
+      "q":"Which is the capital of French-Polynesia?",
+      "a":"Pape'ete"
+   },
+   {  
+      "q":"Which is the capital of Gabon?",
+      "a":"Libreville"
+   },
+   {  
+      "q":"Which is the capital of Gambia?",
+      "a":"Banjul"
+   },
+   {  
+      "q":"Which is the capital of Gaza-Strip?",
+      "a":"Gaza City"
+   },
+   {  
+      "q":"Which is the capital of Germany?",
+      "a":"Berlin"
+   },
+   {  
+      "q":"Which is the capital of Ghana?",
+      "a":"Accra"
+   },
+   {  
+      "q":"Which is the capital of Gibraltar?",
+      "a":"Gibraltar"
+   },
+   {  
+      "q":"Which is the capital of Greece?",
+      "a":"Athens"
+   },
+   {  
+      "q":"Which is the capital of Greenland?",
+      "a":"Nuuk"
+   },
+   {  
+      "q":"Which is the capital of Grenada?",
+      "a":"St. George's"
+   },
+   {  
+      "q":"Which is the capital of Guadeloupe?",
+      "a":"Basse-Terre"
+   },
+   {  
+      "q":"Which is the capital of Guam?",
+      "a":"Hagåtña"
+   },
+   {  
+      "q":"Which is the capital of Guatemala?",
+      "a":"Guatemala City"
+   },
+   {  
+      "q":"Which is the capital of Guernsey?",
+      "a":"St. Peter Port (St. Pierre Port)"
+   },
+   {  
+      "q":"Which is the capital of Guinea?",
+      "a":"Conakry"
+   },
+   {  
+      "q":"Which is the capital of Guinea-Bissau?",
+      "a":"Bissau"
+   },
+   {  
+      "q":"Which is the capital of Guyana?",
+      "a":"Georgetown"
+   },
+   {  
+      "q":"Which is the capital of Haiti?",
+      "a":"Port-au-Prince"
+   },
+   {  
+      "q":"Which is the capital of Honduras?",
+      "a":"Tegucigalpa"
+   },
+   {  
+      "q":"Which is the capital of Hong-Kong?",
+      "a":"Hong-Kong"
+   },
+   {  
+      "q":"Which is the capital of Hungary?",
+      "a":"Budapest"
+   },
+   {  
+      "q":"Which is the capital of Iceland?",
+      "a":"Reykjavík"
+   },
+   {  
+      "q":"Which is the capital of India?",
+      "a":"New Delhi"
+   },
+   {  
+      "q":"Which is the capital of Indonesia?",
+      "a":"Jakarta"
+   },
+   {  
+      "q":"Which is the capital of Iran?",
+      "a":"Tehran"
+   },
+   {  
+      "q":"Which is the capital of Iraq?",
+      "a":"Baghdad"
+   },
+   {  
+      "q":"Which is the capital of Isle-of-Man?",
+      "a":"Douglas (Doolish)"
+   },
+   {  
+      "q":"Which is the capital of Israel?",
+      "a":"Jerusalem (internationally unrecognized)"
+   },
+   {  
+      "q":"Which is the capital of Italy?",
+      "a":"Rome"
+   },
+   {  
+      "q":"Which is the capital of Ivory-Coast?",
+      "a":"Yamoussoukro (political)"
+   },
+   {  
+      "q":"Which is the capital of Jamaica?",
+      "a":"Kingston"
+   },
+   {  
+      "q":"Which is the capital of Japan?",
+      "a":"Tokyo "
+   },
+   {  
+      "q":"Which is the capital of Jersey?",
+      "a":"Saint Helier"
+   },
+   {  
+      "q":"Which is the capital of Jordan?",
+      "a":"Amman"
+   },
+   {  
+      "q":"Which is the capital of Kazakhstan?",
+      "a":"Astana"
+   },
+   {  
+      "q":"Which is the capital of Kenya?",
+      "a":"Nairobi"
+   },
+   {  
+      "q":"Which is the capital of Kiribati?",
+      "a":"Tarawa"
+   },
+   {  
+      "q":"Which is the capital of Kosovo?",
+      "a":"Pristina"
+   },
+   {  
+      "q":"Which is the capital of Kuwait?",
+      "a":"Kuwait City"
+   },
+   {  
+      "q":"Which is the capital of Kyrgyzstan?",
+      "a":"Bishkek"
+   },
+   {  
+      "q":"Which is the capital of Laos?",
+      "a":"Vientiane"
+   },
+   {  
+      "q":"Which is the capital of Latvia?",
+      "a":"Riga"
+   },
+   {  
+      "q":"Which is the capital of Lebanon?",
+      "a":"Beirut"
+   },
+   {  
+      "q":"Which is the capital of Lesotho?",
+      "a":"Maseru"
+   },
+   {  
+      "q":"Which is the capital of Liberia?",
+      "a":"Monrovia"
+   },
+   {  
+      "q":"Which is the capital of Libya?",
+      "a":"Tripoli"
+   },
+   {  
+      "q":"Which is the capital of Liechtenstein?",
+      "a":"Vaduz"
+   },
+   {  
+      "q":"Which is the capital of Lithuania?",
+      "a":"Vilnius"
+   },
+   {  
+      "q":"Which is the capital of Luxembourg?",
+      "a":"Luxembourg City"
+   },
+   {  
+      "q":"Which is the capital of Macau?",
+      "a":"Macau"
+   },
+   {  
+      "q":"Which is the capital of Republic-of-Macedonia?",
+      "a":"Skopje"
+   },
+   {  
+      "q":"Which is the capital of Madagascar?",
+      "a":"Antananarivo"
+   },
+   {  
+      "q":"Which is the capital of Malawi?",
+      "a":"Lilongwe"
+   },
+   {  
+      "q":"Which is the capital of Malaysia?",
+      "a":"Kuala Lumpur"
+   },
+   {  
+      "q":"Which is the capital of Maldives?",
+      "a":"Malé"
+   },
+   {  
+      "q":"Which is the capital of Mali?",
+      "a":"Bamako"
+   },
+   {  
+      "q":"Which is the capital of Malta?",
+      "a":"Valletta"
+   },
+   {  
+      "q":"Which is the capital of Marshall-Islands?",
+      "a":"Majuro"
+   },
+   {  
+      "q":"Which is the capital of Martinique?",
+      "a":"Fort-de-France"
+   },
+   {  
+      "q":"Which is the capital of Mauritania?",
+      "a":"Nouakchott"
+   },
+   {  
+      "q":"Which is the capital of Mauritius?",
+      "a":"Port Louis"
+   },
+   {  
+      "q":"Which is the capital of Mayotte?",
+      "a":"Mamoudzou"
+   },
+   {  
+      "q":"Which is the capital of Mexico?",
+      "a":"Mexico City"
+   },
+   {  
+      "q":"Which is the capital of Moldova?",
+      "a":"Chișinău"
+   },
+   {  
+      "q":"Which is the capital of Monaco?",
+      "a":"Monaco-ville (city-state)"
+   },
+   {  
+      "q":"Which is the capital of Mongolia?",
+      "a":"Ulaanbaatar"
+   },
+   {  
+      "q":"Which is the capital of Montenegro?",
+      "a":"Podgoricaa"
+   },
+   {  
+      "q":"Which is the capital of Montserrat?",
+      "a":"Plymouth (de jure)a"
+   },
+   {  
+      "q":"Which is the capital of Morocco?",
+      "a":"Rabat"
+   },
+   {  
+      "q":"Which is the capital of Mozambique?",
+      "a":"Maputo"
+   },
+   {  
+      "q":"Which is the capital of Myanmar?",
+      "a":"Naypyidaw"
+   },
+   {  
+      "q":"Which is the capital of Namibia?",
+      "a":"Windhoek"
+   },
+   {  
+      "q":"Which is the capital of Nauru?",
+      "a":"Yaren (de facto) "
+   },
+   {  
+      "q":"Which is the capital of Nepal?",
+      "a":"Kathmandu"
+   },
+   {  
+      "q":"Which is the capital of Netherlands?",
+      "a":"Amsterdam"
+   },
+   {  
+      "q":"Which is the capital of New-Caledonia?",
+      "a":"Nouméa"
+   },
+   {  
+      "q":"Which is the capital of New-Zealand?",
+      "a":"Wellington"
+   },
+   {  
+      "q":"Which is the capital of Nicaragua?",
+      "a":"Managua"
+   },
+   {  
+      "q":"Which is the capital of Niger?",
+      "a":"Niamey"
+   },
+   {  
+      "q":"Which is the capital of Nigeria?",
+      "a":"Abuja"
+   },
+   {  
+      "q":"Which is the capital of Niue?",
+      "a":"Alofi"
+   },
+   {  
+      "q":"Which is the capital of Norfolk-Island?",
+      "a":"Kingston"
+   },
+   {  
+      "q":"Which is the capital of Northern-Mariana-Islands?",
+      "a":"Saipan"
+   },
+   {  
+      "q":"Which is the capital of North-Korea?",
+      "a":"Pyongyang"
+   },
+   {  
+      "q":"Which is the capital of Norway?",
+      "a":"Oslo"
+   },
+   {  
+      "q":"Which is the capital of Oman?",
+      "a":"Muscat"
+   },
+   {  
+      "q":"Which is the capital of Pakistan?",
+      "a":"Islamabad"
+   },
+   {  
+      "q":"Which is the capital of Palau?",
+      "a":"Ngerulmud"
+   },
+   {  
+      "q":"Which is the capital of Panama?",
+      "a":"Panama City"
+   },
+   {  
+      "q":"Which is the capital of Papua-New-Guinea?",
+      "a":"Port Moresby"
+   },
+   {  
+      "q":"Which is the capital of Paraguay?",
+      "a":"Asunción"
+   },
+   {  
+      "q":"Which is the capital of Peru?",
+      "a":"Lima"
+   },
+   {  
+      "q":"Which is the capital of Philippines?",
+      "a":"Manilaa"
+   },
+   {  
+      "q":"Which is the capital of Pitcairn-Islands?",
+      "a":"Adamstown"
+   },
+   {  
+      "q":"Which is the capital of Poland?",
+      "a":"Warsaw"
+   },
+   {  
+      "q":"Which is the capital of Portugal?",
+      "a":"Lisbon"
+   },
+   {  
+      "q":"Which is the capital of Puerto-Rico?",
+      "a":"San Juan"
+   },
+   {  
+      "q":"Which is the capital of Qatar?",
+      "a":"Doha"
+   },
+   {  
+      "q":"Which is the capital of Republic-of-the-Congo?",
+      "a":"Brazzaville"
+   },
+   {  
+      "q":"Which is the capital of Réunion?",
+      "a":"Saint-Denis"
+   },
+   {  
+      "q":"Which is the capital of Romania?",
+      "a":"Bucharest"
+   },
+   {  
+      "q":"Which is the capital of Russia?",
+      "a":"Moscow"
+   },
+   {  
+      "q":"Which is the capital of Rwanda?",
+      "a":"Kigali"
+   },
+   {  
+      "q":"Which is the capital of Saint-Helena,-Ascension-and-Tristan-da-Cunha?",
+      "a":"Jamestown"
+   },
+   {  
+      "q":"Which is the capital of Saint-Kitts-and-Nevis?",
+      "a":"Basseterre"
+   },
+   {  
+      "q":"Which is the capital of Saint-Lucia?",
+      "a":"Castries"
+   },
+   {  
+      "q":"Which is the capital of Saint-Pierre-and-Miquelon?",
+      "a":"Saint-Pierre"
+   },
+   {  
+      "q":"Which is the capital of Saint-Vincent-and-the-Grenadines?",
+      "a":"Kingstown"
+   },
+   {  
+      "q":"Which is the capital of Samoa?",
+      "a":"Apia"
+   },
+   {  
+      "q":"Which is the capital of San-Marino?",
+      "a":"City of San Marino"
+   },
+   {  
+      "q":"Which is the capital of São-Tomé-and-Príncipe?",
+      "a":"São Tomé"
+   },
+   {  
+      "q":"Which is the capital of Saudi-Arabia?",
+      "a":"Riyadh"
+   },
+   {  
+      "q":"Which is the capital of Senegal?",
+      "a":"Dakar"
+   },
+   {  
+      "q":"Which is the capital of Serbia?",
+      "a":"Belgrade"
+   },
+   {  
+      "q":"Which is the capital of Seychelles?",
+      "a":"Victoria"
+   },
+   {  
+      "q":"Which is the capital of Sierra-Leone?",
+      "a":"Freetown"
+   },
+   {  
+      "q":"Which is the capital of Singapore?",
+      "a":"Singapore (city-state)"
+   },
+   {  
+      "q":"Which is the capital of Sint-Maarten?",
+      "a":"Philipsburg"
+   },
+   {  
+      "q":"Which is the capital of Slovakia?",
+      "a":"Bratislava"
+   },
+   {  
+      "q":"Which is the capital of Slovenia?",
+      "a":"Ljubljana"
+   },
+   {  
+      "q":"Which is the capital of Solomon-Islands?",
+      "a":"Honiara"
+   },
+   {  
+      "q":"Which is the capital of Somalia?",
+      "a":"Mogadishu"
+   },
+   {  
+      "q":"Which is the capital of South-Africa?",
+      "a":"Pretoria (executive)"
+   },
+   {  
+      "q":"Which is the capital of South-Korea?",
+      "a":"Seoul"
+   },
+   {  
+      "q":"Which is the capital of South-Sudan?",
+      "a":"Juba"
+   },
+   {  
+      "q":"Which is the capital of Spain?",
+      "a":"Madrid"
+   },
+   {  
+      "q":"Which is the capital of Sri-Lanka?",
+      "a":"Sri Jayawardenepura Kotte"
+   },
+   {  
+      "q":"Which is the capital of Sudan?",
+      "a":"Khartoum"
+   },
+   {  
+      "q":"Which is the capital of Suriname?",
+      "a":"Paramaribo"
+   },
+   {  
+      "q":"Which is the capital of Svalbard?",
+      "a":"Longyearbyen"
+   },
+   {  
+      "q":"Which is the capital of Swaziland?",
+      "a":"Lobamba"
+   },
+   {  
+      "q":"Which is the capital of Sweden?",
+      "a":"Stockholm"
+   },
+   {  
+      "q":"Which is the capital of Switzerland?",
+      "a":"None (de jure)"
+   },
+   {  
+      "q":"Which is the capital of Syria?",
+      "a":"Damascus"
+   },
+   {  
+      "q":"Which is the capital of Taiwan?",
+      "a":"Taipei"
+   },
+   {  
+      "q":"Which is the capital of Tajikistan?",
+      "a":"Dushanbe"
+   },
+   {  
+      "q":"Which is the capital of Tanzania?",
+      "a":"Dodoma"
+   },
+   {  
+      "q":"Which is the capital of Thailand?",
+      "a":"Bangkok"
+   },
+   {  
+      "q":"Which is the capital of Togo?",
+      "a":"Lomé"
+   },
+   {  
+      "q":"Which is the capital of Tokelau?",
+      "a":"Fakaofo"
+   },
+   {  
+      "q":"Which is the capital of Tonga?",
+      "a":"Nukuʻalofa"
+   },
+   {  
+      "q":"Which is the capital of Trinidad-and-Tobago?",
+      "a":"Port of Spain"
+   },
+   {  
+      "q":"Which is the capital of Tunisia?",
+      "a":"Tunis"
+   },
+   {  
+      "q":"Which is the capital of Turkey?",
+      "a":"Ankara"
+   },
+   {  
+      "q":"Which is the capital of Turkmenistan?",
+      "a":"Ashgabat"
+   },
+   {  
+      "q":"Which is the capital of Turks-and-Caicos-Islands?",
+      "a":"Cockburn Town"
+   },
+   {  
+      "q":"Which is the capital of Tuvalu?",
+      "a":"Funafuti"
+   },
+   {  
+      "q":"Which is the capital of Uganda?",
+      "a":"Kampala"
+   },
+   {  
+      "q":"Which is the capital of Ukraine?",
+      "a":"Kiev"
+   },
+   {  
+      "q":"Which is the capital of United-Arab-Emirates?",
+      "a":"Abu Dhabi"
+   },
+   {  
+      "q":"Which is the capital of United-Kingdom?",
+      "a":"London"
+   },
+   {  
+      "q":"Which is the capital of United-States?",
+      "a":"Washington, D.C."
+   },
+   {  
+      "q":"Which is the capital of United-States-Virgin-Islands?",
+      "a":"Charlotte Amalie"
+   },
+   {  
+      "q":"Which is the capital of Uruguay?",
+      "a":"Montevideo"
+   },
+   {  
+      "q":"Which is the capital of Uzbekistan?",
+      "a":"Tashkent"
+   },
+   {  
+      "q":"Which is the capital of Vanuatu?",
+      "a":"Port Vila"
+   },
+   {  
+      "q":"Which is the capital of Vatican-City?",
+      "a":"Vatican City (city-state)"
+   },
+   {  
+      "q":"Which is the capital of Venezuela?",
+      "a":"Caracas"
+   },
+   {  
+      "q":"Which is the capital of Vietnam?",
+      "a":"Hanoi"
+   },
+   {  
+      "q":"Which is the capital of Wallis-and-Futuna-Islands?",
+      "a":"Mata-Utu"
+   },
+   {  
+      "q":"Which is the capital of Yemen?",
+      "a":"Sana'a"
+   },
+   {  
+      "q":"Which is the capital of Zambia?",
+      "a":"Lusaka"
+   },
+   {  
+      "q":"Which is the capital of Zimbabwe?",
+      "a":"Harare"
+   }
+]
